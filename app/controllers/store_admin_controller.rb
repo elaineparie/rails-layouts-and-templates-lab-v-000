@@ -4,4 +4,8 @@ class StoreAdminController < ActionController::Base
   def home
   end
 
+  def orders
+    layout => "order_administration"
+  end
+
 end
