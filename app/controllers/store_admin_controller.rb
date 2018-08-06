@@ -2,7 +2,7 @@ class StoreAdminController < ActionController::Base
   layout "admin"
 
   def home
-    render :layout => "static"
+    render :layout => "admin"
   end
 
 end
