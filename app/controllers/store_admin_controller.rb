@@ -1,3 +1,3 @@
 class StoreAdminController < ActionController::Base
-  layout :admin
+  layout "admin"
 end
